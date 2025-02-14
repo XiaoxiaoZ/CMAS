@@ -1,0 +1,3472 @@
+{
+  "Container": "ModelTree",
+  "CMAS": "Fredrik Danielsson",
+  "VersionFile": 1,
+  "VersionString": "2.11 - 2025 January - revision 547",
+  "VersionMajor": 2,
+  "VersionMinor": 11,
+  "SaveTime": "2025-02-14 - 18:12:07.997780300",
+  "User": "xizh0002",
+  "Host": "IT013148",
+  "Trees": [
+    {
+      "Container": "Entity",
+      "Protected": false,
+      "Properties": [
+        [
+          "Name",
+          {
+            "Name": "Name",
+            "ClassName": "cmas.ontology.Entity",
+            "Description": "A name of the relation root",
+            "CanInherit": true,
+            "Override": true,
+            "ReadOnly": false,
+            "ParentID": "",
+            "PropertyType": "[INHERITANCE]",
+            "LocalValue": "Welding modell"
+          }
+        ],
+        [
+          "Description",
+          {
+            "Name": "Description",
+            "ClassName": "cmas.ontology.Entity",
+            "Description": "A user description of the relation root",
+            "CanInherit": true,
+            "Override": true,
+            "ReadOnly": false,
+            "ParentID": "",
+            "PropertyType": "[STRINGEDIT]",
+            "LocalValue": ""
+          }
+        ],
+        [
+          "FileName",
+          {
+            "Name": "FileName",
+            "ClassName": "datastorage.DataRoot",
+            "Description": "FileName",
+            "CanInherit": false,
+            "Override": true,
+            "ReadOnly": true,
+            "ParentID": "",
+            "PropertyType": "[REFERENCEFILE]",
+            "LocalValue": "D:\\HV-filesync\\xizh0002\\Documents\\GitHub\\CMAS\\Welding.cmas"
+          }
+        ],
+        [
+          "FileIsReference",
+          {
+            "Name": "FileIsReference",
+            "ClassName": "datastorage.DataRoot",
+            "Description": "FileIsReference",
+            "CanInherit": false,
+            "Override": true,
+            "ReadOnly": true,
+            "ParentID": "",
+            "PropertyType": "[HIDE]",
+            "LocalValue": "false"
+          }
+        ]
+      ],
+      "Relations": [],
+      "EntityType": "DATA_ROOT",
+      "TreeItems": [
+        {
+          "Container": "Entity",
+          "Protected": false,
+          "Properties": [
+            [
+              "Parent",
+              {
+                "Name": "Parent",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "Parent object",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[PARENTEDITOR]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "Name",
+              {
+                "Name": "Name",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "A user friendly name of the entity",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[STRINGEDIT]",
+                "LocalValue": "Robot"
+              }
+            ],
+            [
+              "ID",
+              {
+                "Name": "ID",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "ID is a unique identifier for this specific entity",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                "LocalValue": "7e779618-952a-463b-868b-79de97cb3856-1739547391947-0000"
+              }
+            ],
+            [
+              "InstanceID",
+              {
+                "Name": "InstanceID",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "InstanceID is world a unique identifier for this specific entity",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": true,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, HIDE]",
+                "LocalValue": "f7275529-3b7a-4d56-bbf4-76bd6d64bf92-1739551868259-0003"
+              }
+            ],
+            [
+              "Description",
+              {
+                "Name": "Description",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "A user description of the entity",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[STRINGEDIT]",
+                "LocalValue": "A robot can do deposit welding"
+              }
+            ],
+            [
+              "Type",
+              {
+                "Name": "Type",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "Entity base type",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": true,
+                "ParentID": "",
+                "PropertyType": "[HIDEBASIC]",
+                "LocalValue": "AGENT"
+              }
+            ],
+            [
+              "PhysicalID",
+              {
+                "Name": "PhysicalID",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "A user defined physical ID for the specific resource",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "AgentBaseType",
+              {
+                "Name": "AgentBaseType",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "Agent base type",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": true,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE]",
+                "LocalValue": "RESOURCE"
+              }
+            ],
+            [
+              "AgentSpecificType",
+              {
+                "Name": "AgentSpecificType",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "Agent specific type",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "History",
+              {
+                "Name": "History",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "Agent history log for runtime events",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[HISTORYSHOW, RUNTIME]",
+                "LocalValue": "[]"
+              }
+            ],
+            [
+              "AutoDeploy",
+              {
+                "Name": "AutoDeploy",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "If true the agent will be deployed at run",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                "LocalValue": "true"
+              }
+            ],
+            [
+              "Actions",
+              {
+                "Name": "Actions",
+                "ClassName": "cmas.ontology.agents.AgentAction",
+                "Description": "User defined actions",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[TEXTEDITOR, MODELLING]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "AgentState",
+              {
+                "Name": "AgentState",
+                "ClassName": "cmas.ontology.agents.AgentAction",
+                "Description": "Agent runtime state",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[RUNTIME]",
+                "LocalValue": "INIT"
+              }
+            ]
+          ],
+          "Relations": [
+            [
+              "Variables"
+            ],
+            [
+              "Interfaces",
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "WeldingInterface"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "60fe492d-5ca0-4302-9e86-38d3a34f8141-1739547436046-0001"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "bd65a6f4-8152-4b6b-a0f0-63f67afd2da9-1739551868259-0005"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "INTERFACE"
+                    }
+                  ],
+                  [
+                    "VariableMatching",
+                    {
+                      "Name": "VariableMatching",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Variable matching for the interface",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "REQUIRED"
+                    }
+                  ],
+                  [
+                    "Actions",
+                    {
+                      "Name": "Actions",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface actions",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[TEXTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Booked",
+                    {
+                      "Name": "Booked",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface booking",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "BookedBy",
+                    {
+                      "Name": "BookedBy",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface is booked by",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Busy",
+                    {
+                      "Name": "Busy",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface busy",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "AttachedTo",
+                    {
+                      "Name": "AttachedTo",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface attached to",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": ""
+                    }
+                  ]
+                ],
+                "Relations": [
+                  [
+                    "Variables",
+                    {
+                      "Container": "Entity",
+                      "Protected": false,
+                      "Properties": [
+                        [
+                          "Parent",
+                          {
+                            "Name": "Parent",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Parent object",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[PARENTEDITOR]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Name",
+                          {
+                            "Name": "Name",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user friendly name of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": "layerInfo"
+                          }
+                        ],
+                        [
+                          "ID",
+                          {
+                            "Name": "ID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "ID is a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                            "LocalValue": "97c4390c-fdd9-4608-86ab-1dcdd0100e15-1739549333601-0000"
+                          }
+                        ],
+                        [
+                          "InstanceID",
+                          {
+                            "Name": "InstanceID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "InstanceID is world a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "6cf5b69f-5c57-4c2e-a510-0d95c0be7a8b-1739551868259-0007"
+                          }
+                        ],
+                        [
+                          "Description",
+                          {
+                            "Name": "Description",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user description of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Type",
+                          {
+                            "Name": "Type",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Entity base type",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[HIDEBASIC]",
+                            "LocalValue": "VARIABLE"
+                          }
+                        ],
+                        [
+                          "VariableType",
+                          {
+                            "Name": "VariableType",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Type of variable",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "OBJECT"
+                          }
+                        ],
+                        [
+                          "ReadOnly",
+                          {
+                            "Name": "ReadOnly",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Read only variable",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "StoreLongTerm",
+                          {
+                            "Name": "StoreLongTerm",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Store the value in a database",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Source",
+                          {
+                            "Name": "Source",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Source field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Address",
+                          {
+                            "Name": "Address",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Address field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Error",
+                          {
+                            "Name": "Error",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Variable error",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Size",
+                          {
+                            "Name": "Size",
+                            "ClassName": "java.lang.Class",
+                            "Description": "Number of items in object",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "1"
+                          }
+                        ],
+                        [
+                          "Value",
+                          {
+                            "Name": "Value",
+                            "ClassName": "cmas.ontology.variables.VariableObject",
+                            "Description": "Object values",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[VARIABLEEDITOR]",
+                            "LocalValue": "layerInfo"
+                          }
+                        ]
+                      ],
+                      "Relations": [
+                        [
+                          "Items",
+                          {
+                            "Container": "Entity",
+                            "Protected": false,
+                            "Properties": [
+                              [
+                                "Parent",
+                                {
+                                  "Name": "Parent",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "Parent object",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[PARENTEDITOR]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Name",
+                                {
+                                  "Name": "Name",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "A user friendly name of the entity",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[STRINGEDIT]",
+                                  "LocalValue": "p"
+                                }
+                              ],
+                              [
+                                "ID",
+                                {
+                                  "Name": "ID",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "ID is a unique identifier for this specific entity",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                                  "LocalValue": "48d7e4ba-542b-4665-b906-b7cbea52d6b0-1739550987594-0000"
+                                }
+                              ],
+                              [
+                                "InstanceID",
+                                {
+                                  "Name": "InstanceID",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "InstanceID is world a unique identifier for this specific entity",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDE]",
+                                  "LocalValue": "e3061fde-4552-4e8c-b49f-d1efb6867814-1739551868259-0009"
+                                }
+                              ],
+                              [
+                                "Description",
+                                {
+                                  "Name": "Description",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "A user description of the entity",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[STRINGEDIT]",
+                                  "LocalValue": "1,2,3,4"
+                                }
+                              ],
+                              [
+                                "Type",
+                                {
+                                  "Name": "Type",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "Entity base type",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[HIDEBASIC]",
+                                  "LocalValue": "VARIABLE"
+                                }
+                              ],
+                              [
+                                "VariableType",
+                                {
+                                  "Name": "VariableType",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Type of variable",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                                  "LocalValue": "PRIMITIVE"
+                                }
+                              ],
+                              [
+                                "ReadOnly",
+                                {
+                                  "Name": "ReadOnly",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Read only variable",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                                  "LocalValue": "false"
+                                }
+                              ],
+                              [
+                                "StoreLongTerm",
+                                {
+                                  "Name": "StoreLongTerm",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Store the value in a database",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                                  "LocalValue": "false"
+                                }
+                              ],
+                              [
+                                "Source",
+                                {
+                                  "Name": "Source",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Source field for an adapter",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Address",
+                                {
+                                  "Name": "Address",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Address field for an adapter",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Error",
+                                {
+                                  "Name": "Error",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Variable error",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDE]",
+                                  "LocalValue": "false"
+                                }
+                              ],
+                              [
+                                "Value",
+                                {
+                                  "Name": "Value",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Value",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE]",
+                                  "LocalValue": "0"
+                                }
+                              ],
+                              [
+                                "ValueType",
+                                {
+                                  "Name": "ValueType",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Type of value",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE]",
+                                  "LocalValue": "INTEGER"
+                                }
+                              ],
+                              [
+                                "UpperBound",
+                                {
+                                  "Name": "UpperBound",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Upper bound for value or a bound expression",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "LowerBound",
+                                {
+                                  "Name": "LowerBound",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Lower bound for value or a bound expression",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Unit",
+                                {
+                                  "Name": "Unit",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Value unit",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ]
+                            ],
+                            "Relations": [],
+                            "EntityType": "VARIABLE",
+                            "TypeOfVariable": "PRIMITIVE",
+                            "ValueType": "INTEGER"
+                          }
+                        ]
+                      ],
+                      "EntityType": "VARIABLE",
+                      "TypeOfVariable": "OBJECT"
+                    }
+                  ],
+                  [
+                    "OperationalSpace"
+                  ],
+                  [
+                    "Skills",
+                    {
+                      "Container": "Entity",
+                      "Protected": false,
+                      "Properties": [
+                        [
+                          "Parent",
+                          {
+                            "Name": "Parent",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Parent object",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[PARENTEDITOR]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Name",
+                          {
+                            "Name": "Name",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user friendly name of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": "welding"
+                          }
+                        ],
+                        [
+                          "ID",
+                          {
+                            "Name": "ID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "ID is a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                            "LocalValue": "10e90c11-2190-4c8e-9beb-148253119437-1739551186222-0001"
+                          }
+                        ],
+                        [
+                          "InstanceID",
+                          {
+                            "Name": "InstanceID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "InstanceID is world a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "2e685996-d213-42f4-acf2-f64f8a6369c5-1739551868259-000b"
+                          }
+                        ],
+                        [
+                          "Description",
+                          {
+                            "Name": "Description",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user description of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Type",
+                          {
+                            "Name": "Type",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Entity base type",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[HIDEBASIC]",
+                            "LocalValue": "PROCESSPLAN"
+                          }
+                        ],
+                        [
+                          "ProcessPlanType",
+                          {
+                            "Name": "ProcessPlanType",
+                            "ClassName": "cmas.ontology.processplan.ProcessPlan",
+                            "Description": "Type of process plan",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "STRUCTUREDTEXT"
+                          }
+                        ],
+                        [
+                          "Cost",
+                          {
+                            "Name": "Cost",
+                            "ClassName": "cmas.ontology.processplan.ProcessPlan",
+                            "Description": "The cost to execute the process plan, can be used for optimisation.",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "0"
+                          }
+                        ],
+                        [
+                          "PostAction",
+                          {
+                            "Name": "PostAction",
+                            "ClassName": "cmas.ontology.processplan.ProcessPlan",
+                            "Description": "An action to be execute after the process plan is done.",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "NONE"
+                          }
+                        ],
+                        [
+                          "TargetType",
+                          {
+                            "Name": "TargetType",
+                            "ClassName": "cmas.ontology.processplan.ProcessPlan",
+                            "Description": "A target type of the process plan.",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT, MODELLING]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Actions",
+                          {
+                            "Name": "Actions",
+                            "ClassName": "cmas.ontology.processplan.ProcessPlanStructuredText",
+                            "Description": "Process plan actions",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[TEXTEDITOR]",
+                            "LocalValue": "Program Processplan;\n\nfunction onRun() : integer;\nbegin\n\t// Add actions here\n\tcase interface.layerInfo.p of\n\t1:\n\t\twriteln(\u0027p10\u0027);\n\telse:\n\tend;\n\t// Return value - running, done, failed or interrupted \n\tonRun:\u003dprocessplan.done;\nend."
+                          }
+                        ]
+                      ],
+                      "Relations": [
+                        [
+                          "Requirements"
+                        ],
+                        [
+                          "Hazards"
+                        ]
+                      ],
+                      "EntityType": "PROCESSPLAN",
+                      "ProcessPlanType": "STRUCTUREDTEXT"
+                    }
+                  ]
+                ],
+                "EntityType": "INTERFACE"
+              },
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "ServiceInterface"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "3da00eab-5920-4ae8-9179-9c8a9d7c9034-1739547474722-0000"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "4100ed5f-cf73-4a2e-bc5a-13a0d6054590-1739551868260-0001"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "INTERFACE"
+                    }
+                  ],
+                  [
+                    "VariableMatching",
+                    {
+                      "Name": "VariableMatching",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Variable matching for the interface",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "REQUIRED"
+                    }
+                  ],
+                  [
+                    "Actions",
+                    {
+                      "Name": "Actions",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface actions",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[TEXTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Booked",
+                    {
+                      "Name": "Booked",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface booking",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "BookedBy",
+                    {
+                      "Name": "BookedBy",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface is booked by",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Busy",
+                    {
+                      "Name": "Busy",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface busy",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "AttachedTo",
+                    {
+                      "Name": "AttachedTo",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface attached to",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": ""
+                    }
+                  ]
+                ],
+                "Relations": [
+                  [
+                    "Variables"
+                  ],
+                  [
+                    "OperationalSpace"
+                  ],
+                  [
+                    "Skills"
+                  ]
+                ],
+                "EntityType": "INTERFACE"
+              }
+            ]
+          ],
+          "EntityType": "AGENT",
+          "AgentBaseType": "RESOURCE"
+        },
+        {
+          "Container": "Entity",
+          "Protected": false,
+          "Properties": [
+            [
+              "Parent",
+              {
+                "Name": "Parent",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "Parent object",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[PARENTEDITOR]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "Name",
+              {
+                "Name": "Name",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "A user friendly name of the entity",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[STRINGEDIT]",
+                "LocalValue": "Part1"
+              }
+            ],
+            [
+              "ID",
+              {
+                "Name": "ID",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "ID is a unique identifier for this specific entity",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                "LocalValue": "f8e42f04-d000-44e7-b56f-01e3d96ee824-1739547953700-0001"
+              }
+            ],
+            [
+              "InstanceID",
+              {
+                "Name": "InstanceID",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "InstanceID is world a unique identifier for this specific entity",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": true,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, HIDE]",
+                "LocalValue": "23f015bc-237b-4d47-b9b9-50d541dc38b8-1739551868260-0003"
+              }
+            ],
+            [
+              "Description",
+              {
+                "Name": "Description",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "A user description of the entity",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[STRINGEDIT]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "Type",
+              {
+                "Name": "Type",
+                "ClassName": "cmas.ontology.Entity",
+                "Description": "Entity base type",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": true,
+                "ParentID": "",
+                "PropertyType": "[HIDEBASIC]",
+                "LocalValue": "AGENT"
+              }
+            ],
+            [
+              "PhysicalID",
+              {
+                "Name": "PhysicalID",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "A user defined physical ID for the specific resource",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "AgentBaseType",
+              {
+                "Name": "AgentBaseType",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "Agent base type",
+                "CanInherit": false,
+                "Override": true,
+                "ReadOnly": true,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE]",
+                "LocalValue": "PART"
+              }
+            ],
+            [
+              "AgentSpecificType",
+              {
+                "Name": "AgentSpecificType",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "Agent specific type",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "History",
+              {
+                "Name": "History",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "Agent history log for runtime events",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[HISTORYSHOW, RUNTIME]",
+                "LocalValue": "[]"
+              }
+            ],
+            [
+              "AutoDeploy",
+              {
+                "Name": "AutoDeploy",
+                "ClassName": "cmas.ontology.agents.Agent",
+                "Description": "If true the agent will be deployed at run",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                "LocalValue": "true"
+              }
+            ],
+            [
+              "Actions",
+              {
+                "Name": "Actions",
+                "ClassName": "cmas.ontology.agents.AgentAction",
+                "Description": "User defined actions",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[TEXTEDITOR, MODELLING]",
+                "LocalValue": ""
+              }
+            ],
+            [
+              "AgentState",
+              {
+                "Name": "AgentState",
+                "ClassName": "cmas.ontology.agents.AgentAction",
+                "Description": "Agent runtime state",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[RUNTIME]",
+                "LocalValue": "INIT"
+              }
+            ],
+            [
+              "Instances",
+              {
+                "Name": "Instances",
+                "ClassName": "cmas.ontology.agents.Part",
+                "Description": "Counter for number of instances",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[RUNTIME]",
+                "LocalValue": "0"
+              }
+            ],
+            [
+              "Processplan",
+              {
+                "Name": "Processplan",
+                "ClassName": "cmas.ontology.agents.Part",
+                "Description": "Open a SFC editior for the part process plan",
+                "CanInherit": true,
+                "Override": true,
+                "ReadOnly": false,
+                "ParentID": "",
+                "PropertyType": "[SFCEDITOR, MODELLING]",
+                "LocalValue": "{\"Type\":\"BlockSequential\",\"Sequence\":[{\"Type\":\"StatementGoal\",\"Goal\":\"3b4f92c5-917a-425d-89a6-4d1feaf40073-1739548015882-0001\"}]}"
+              }
+            ]
+          ],
+          "Relations": [
+            [
+              "Variables",
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "temperature"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "9883ce3c-5fe1-40c1-9a60-f9c1eb2a4277-1739548713107-000a"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "af4e3315-392e-436e-bacc-63c48ca00556-1739551868260-0008"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "VARIABLE"
+                    }
+                  ],
+                  [
+                    "VariableType",
+                    {
+                      "Name": "VariableType",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Type of variable",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "OBJECT"
+                    }
+                  ],
+                  [
+                    "ReadOnly",
+                    {
+                      "Name": "ReadOnly",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Read only variable",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "StoreLongTerm",
+                    {
+                      "Name": "StoreLongTerm",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Store the value in a database",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Source",
+                    {
+                      "Name": "Source",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Source field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Address",
+                    {
+                      "Name": "Address",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Address field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Error",
+                    {
+                      "Name": "Error",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Variable error",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Size",
+                    {
+                      "Name": "Size",
+                      "ClassName": "java.lang.Class",
+                      "Description": "Number of items in object",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "4"
+                    }
+                  ],
+                  [
+                    "Value",
+                    {
+                      "Name": "Value",
+                      "ClassName": "cmas.ontology.variables.VariableObject",
+                      "Description": "Object values",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[VARIABLEEDITOR]",
+                      "LocalValue": "temperature"
+                    }
+                  ]
+                ],
+                "Relations": [
+                  [
+                    "Items",
+                    {
+                      "Container": "Entity",
+                      "Protected": false,
+                      "Properties": [
+                        [
+                          "Parent",
+                          {
+                            "Name": "Parent",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Parent object",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[PARENTEDITOR]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Name",
+                          {
+                            "Name": "Name",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user friendly name of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": "p10"
+                          }
+                        ],
+                        [
+                          "ID",
+                          {
+                            "Name": "ID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "ID is a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                            "LocalValue": "8a581304-94ae-4a9b-b09f-861b7a86d0dc-1739547844997-0001"
+                          }
+                        ],
+                        [
+                          "InstanceID",
+                          {
+                            "Name": "InstanceID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "InstanceID is world a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "9f569613-1419-4c48-a9f5-351aa592e520-1739551868260-000a"
+                          }
+                        ],
+                        [
+                          "Description",
+                          {
+                            "Name": "Description",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user description of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Type",
+                          {
+                            "Name": "Type",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Entity base type",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[HIDEBASIC]",
+                            "LocalValue": "VARIABLE"
+                          }
+                        ],
+                        [
+                          "VariableType",
+                          {
+                            "Name": "VariableType",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Type of variable",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "PRIMITIVE"
+                          }
+                        ],
+                        [
+                          "ReadOnly",
+                          {
+                            "Name": "ReadOnly",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Read only variable",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "StoreLongTerm",
+                          {
+                            "Name": "StoreLongTerm",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Store the value in a database",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Source",
+                          {
+                            "Name": "Source",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Source field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Address",
+                          {
+                            "Name": "Address",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Address field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Error",
+                          {
+                            "Name": "Error",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Variable error",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Value",
+                          {
+                            "Name": "Value",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "100.0"
+                          }
+                        ],
+                        [
+                          "ValueType",
+                          {
+                            "Name": "ValueType",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Type of value",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "REAL"
+                          }
+                        ],
+                        [
+                          "UpperBound",
+                          {
+                            "Name": "UpperBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Upper bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "LowerBound",
+                          {
+                            "Name": "LowerBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Lower bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Unit",
+                          {
+                            "Name": "Unit",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value unit",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ]
+                      ],
+                      "Relations": [],
+                      "EntityType": "VARIABLE",
+                      "TypeOfVariable": "PRIMITIVE",
+                      "ValueType": "REAL"
+                    },
+                    {
+                      "Container": "Entity",
+                      "Protected": false,
+                      "Properties": [
+                        [
+                          "Parent",
+                          {
+                            "Name": "Parent",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Parent object",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[PARENTEDITOR]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Name",
+                          {
+                            "Name": "Name",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user friendly name of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": "p20"
+                          }
+                        ],
+                        [
+                          "ID",
+                          {
+                            "Name": "ID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "ID is a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                            "LocalValue": "cc86a41f-b24e-44aa-b718-43edbe1545e5-1739547860694-0001"
+                          }
+                        ],
+                        [
+                          "InstanceID",
+                          {
+                            "Name": "InstanceID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "InstanceID is world a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "41dadad4-b0cf-4ad1-bcb8-eb9019c1af80-1739551868260-000c"
+                          }
+                        ],
+                        [
+                          "Description",
+                          {
+                            "Name": "Description",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user description of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Type",
+                          {
+                            "Name": "Type",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Entity base type",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[HIDEBASIC]",
+                            "LocalValue": "VARIABLE"
+                          }
+                        ],
+                        [
+                          "VariableType",
+                          {
+                            "Name": "VariableType",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Type of variable",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "PRIMITIVE"
+                          }
+                        ],
+                        [
+                          "ReadOnly",
+                          {
+                            "Name": "ReadOnly",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Read only variable",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "StoreLongTerm",
+                          {
+                            "Name": "StoreLongTerm",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Store the value in a database",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Source",
+                          {
+                            "Name": "Source",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Source field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Address",
+                          {
+                            "Name": "Address",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Address field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Error",
+                          {
+                            "Name": "Error",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Variable error",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Value",
+                          {
+                            "Name": "Value",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "300.0"
+                          }
+                        ],
+                        [
+                          "ValueType",
+                          {
+                            "Name": "ValueType",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Type of value",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "REAL"
+                          }
+                        ],
+                        [
+                          "UpperBound",
+                          {
+                            "Name": "UpperBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Upper bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "LowerBound",
+                          {
+                            "Name": "LowerBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Lower bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Unit",
+                          {
+                            "Name": "Unit",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value unit",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ]
+                      ],
+                      "Relations": [],
+                      "EntityType": "VARIABLE",
+                      "TypeOfVariable": "PRIMITIVE",
+                      "ValueType": "REAL"
+                    },
+                    {
+                      "Container": "Entity",
+                      "Protected": false,
+                      "Properties": [
+                        [
+                          "Parent",
+                          {
+                            "Name": "Parent",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Parent object",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[PARENTEDITOR]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Name",
+                          {
+                            "Name": "Name",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user friendly name of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": "p30"
+                          }
+                        ],
+                        [
+                          "ID",
+                          {
+                            "Name": "ID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "ID is a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                            "LocalValue": "b86ed7f0-295f-4815-b4fd-2298725ad4be-1739547870946-0001"
+                          }
+                        ],
+                        [
+                          "InstanceID",
+                          {
+                            "Name": "InstanceID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "InstanceID is world a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "5ae88072-9981-4a13-8f48-5a86b6f23cf1-1739551868260-000e"
+                          }
+                        ],
+                        [
+                          "Description",
+                          {
+                            "Name": "Description",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user description of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Type",
+                          {
+                            "Name": "Type",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Entity base type",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[HIDEBASIC]",
+                            "LocalValue": "VARIABLE"
+                          }
+                        ],
+                        [
+                          "VariableType",
+                          {
+                            "Name": "VariableType",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Type of variable",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "PRIMITIVE"
+                          }
+                        ],
+                        [
+                          "ReadOnly",
+                          {
+                            "Name": "ReadOnly",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Read only variable",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "StoreLongTerm",
+                          {
+                            "Name": "StoreLongTerm",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Store the value in a database",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Source",
+                          {
+                            "Name": "Source",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Source field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Address",
+                          {
+                            "Name": "Address",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Address field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Error",
+                          {
+                            "Name": "Error",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Variable error",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Value",
+                          {
+                            "Name": "Value",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "100.0"
+                          }
+                        ],
+                        [
+                          "ValueType",
+                          {
+                            "Name": "ValueType",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Type of value",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "REAL"
+                          }
+                        ],
+                        [
+                          "UpperBound",
+                          {
+                            "Name": "UpperBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Upper bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "LowerBound",
+                          {
+                            "Name": "LowerBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Lower bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Unit",
+                          {
+                            "Name": "Unit",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value unit",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ]
+                      ],
+                      "Relations": [],
+                      "EntityType": "VARIABLE",
+                      "TypeOfVariable": "PRIMITIVE",
+                      "ValueType": "REAL"
+                    },
+                    {
+                      "Container": "Entity",
+                      "Protected": false,
+                      "Properties": [
+                        [
+                          "Parent",
+                          {
+                            "Name": "Parent",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Parent object",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[PARENTEDITOR]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Name",
+                          {
+                            "Name": "Name",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user friendly name of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": "p40"
+                          }
+                        ],
+                        [
+                          "ID",
+                          {
+                            "Name": "ID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "ID is a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                            "LocalValue": "b4c1e555-007d-4074-b50f-65e393e6bf7f-1739547880549-0001"
+                          }
+                        ],
+                        [
+                          "InstanceID",
+                          {
+                            "Name": "InstanceID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "InstanceID is world a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "58bd2954-0038-4b70-81fe-ddcae7d20851-1739551868260-0010"
+                          }
+                        ],
+                        [
+                          "Description",
+                          {
+                            "Name": "Description",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user description of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Type",
+                          {
+                            "Name": "Type",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Entity base type",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[HIDEBASIC]",
+                            "LocalValue": "VARIABLE"
+                          }
+                        ],
+                        [
+                          "VariableType",
+                          {
+                            "Name": "VariableType",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Type of variable",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "PRIMITIVE"
+                          }
+                        ],
+                        [
+                          "ReadOnly",
+                          {
+                            "Name": "ReadOnly",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Read only variable",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "StoreLongTerm",
+                          {
+                            "Name": "StoreLongTerm",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Store the value in a database",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Source",
+                          {
+                            "Name": "Source",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Source field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Address",
+                          {
+                            "Name": "Address",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Address field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Error",
+                          {
+                            "Name": "Error",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Variable error",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Value",
+                          {
+                            "Name": "Value",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "2000.0"
+                          }
+                        ],
+                        [
+                          "ValueType",
+                          {
+                            "Name": "ValueType",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Type of value",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "REAL"
+                          }
+                        ],
+                        [
+                          "UpperBound",
+                          {
+                            "Name": "UpperBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Upper bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "LowerBound",
+                          {
+                            "Name": "LowerBound",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Lower bound for value or a bound expression",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Unit",
+                          {
+                            "Name": "Unit",
+                            "ClassName": "cmas.ontology.variables.Value",
+                            "Description": "Value unit",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ]
+                      ],
+                      "Relations": [],
+                      "EntityType": "VARIABLE",
+                      "TypeOfVariable": "PRIMITIVE",
+                      "ValueType": "REAL"
+                    }
+                  ]
+                ],
+                "EntityType": "VARIABLE",
+                "TypeOfVariable": "OBJECT"
+              }
+            ],
+            [
+              "Goals",
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "Layer1"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "3b4f92c5-917a-425d-89a6-4d1feaf40073-1739548015882-0001"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "9ca55add-31cd-4f25-ba3f-0caa30016af3-1739551868260-0014"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "GOAL"
+                    }
+                  ],
+                  [
+                    "VariableMatching",
+                    {
+                      "Name": "VariableMatching",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Variable matching for the interface",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "REQUIRED"
+                    }
+                  ],
+                  [
+                    "Actions",
+                    {
+                      "Name": "Actions",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface actions",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[TEXTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Booked",
+                    {
+                      "Name": "Booked",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface booking",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "BookedBy",
+                    {
+                      "Name": "BookedBy",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface is booked by",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Busy",
+                    {
+                      "Name": "Busy",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface busy",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "AttachedTo",
+                    {
+                      "Name": "AttachedTo",
+                      "ClassName": "cmas.ontology.interfaces.InterfaceBase",
+                      "Description": "Interface attached to",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Interface",
+                    {
+                      "Name": "Interface",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "Interface name",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INTERFACEBROWSER]",
+                      "LocalValue": "WeldingInterface"
+                    }
+                  ],
+                  [
+                    "PreCondition",
+                    {
+                      "Name": "PreCondition",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "Preconditions for the goal",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[TEXTEDITOR, MODELLING]",
+                      "LocalValue": "program GoalPreCondition;\nfunction Precondition() : boolean;\nbegin\n\t// Condition`\n\tPrecondition:\u003dtrue;\nend."
+                    }
+                  ],
+                  [
+                    "Priority",
+                    {
+                      "Name": "Priority",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "A priority only used if two goals are active at the same time",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "0"
+                    }
+                  ],
+                  [
+                    "ProcessPlanName",
+                    {
+                      "Name": "ProcessPlanName",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "A name of a desired process plan to use when the goal is executed",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PROCESSPLANEDITOR]",
+                      "LocalValue": "welding"
+                    }
+                  ],
+                  [
+                    "Assigned",
+                    {
+                      "Name": "Assigned",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "Indicates if goal is assigned and active during runtime ",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Fulfilled",
+                    {
+                      "Name": "Fulfilled",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "Indicates if goal is fulfilled at runtime",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "BreakPoint",
+                    {
+                      "Name": "BreakPoint",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "Debug break point",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Failed",
+                    {
+                      "Name": "Failed",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "Indicates if goal has failed",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "FailedMessage",
+                    {
+                      "Name": "FailedMessage",
+                      "ClassName": "cmas.ontology.interfaces.Goal",
+                      "Description": "The reason for the failure",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[RUNTIME]",
+                      "LocalValue": ""
+                    }
+                  ]
+                ],
+                "Relations": [
+                  [
+                    "Variables",
+                    {
+                      "Container": "Entity",
+                      "Protected": false,
+                      "Properties": [
+                        [
+                          "Parent",
+                          {
+                            "Name": "Parent",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Parent object",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[PARENTEDITOR]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Name",
+                          {
+                            "Name": "Name",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user friendly name of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": "layerInfo"
+                          }
+                        ],
+                        [
+                          "ID",
+                          {
+                            "Name": "ID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "ID is a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                            "LocalValue": "6f6c42ff-b585-495d-b885-f84d23ad57b3-1739548153828-0001"
+                          }
+                        ],
+                        [
+                          "InstanceID",
+                          {
+                            "Name": "InstanceID",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "InstanceID is world a unique identifier for this specific entity",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "4da257dd-1e03-4740-82eb-18f33d01f32f-1739551868260-0016"
+                          }
+                        ],
+                        [
+                          "Description",
+                          {
+                            "Name": "Description",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "A user description of the entity",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[STRINGEDIT]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Type",
+                          {
+                            "Name": "Type",
+                            "ClassName": "cmas.ontology.Entity",
+                            "Description": "Entity base type",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[HIDEBASIC]",
+                            "LocalValue": "VARIABLE"
+                          }
+                        ],
+                        [
+                          "VariableType",
+                          {
+                            "Name": "VariableType",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Type of variable",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": true,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "OBJECT"
+                          }
+                        ],
+                        [
+                          "ReadOnly",
+                          {
+                            "Name": "ReadOnly",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Read only variable",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "StoreLongTerm",
+                          {
+                            "Name": "StoreLongTerm",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Store the value in a database",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Source",
+                          {
+                            "Name": "Source",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Source field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Address",
+                          {
+                            "Name": "Address",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Address field for an adapter",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                            "LocalValue": ""
+                          }
+                        ],
+                        [
+                          "Error",
+                          {
+                            "Name": "Error",
+                            "ClassName": "cmas.ontology.variables.Variable",
+                            "Description": "Variable error",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE, HIDE]",
+                            "LocalValue": "false"
+                          }
+                        ],
+                        [
+                          "Size",
+                          {
+                            "Name": "Size",
+                            "ClassName": "java.lang.Class",
+                            "Description": "Number of items in object",
+                            "CanInherit": true,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[INHERITANCE]",
+                            "LocalValue": "1"
+                          }
+                        ],
+                        [
+                          "Value",
+                          {
+                            "Name": "Value",
+                            "ClassName": "cmas.ontology.variables.VariableObject",
+                            "Description": "Object values",
+                            "CanInherit": false,
+                            "Override": true,
+                            "ReadOnly": false,
+                            "ParentID": "",
+                            "PropertyType": "[VARIABLEEDITOR]",
+                            "LocalValue": "layerInfo"
+                          }
+                        ]
+                      ],
+                      "Relations": [
+                        [
+                          "Items",
+                          {
+                            "Container": "Entity",
+                            "Protected": false,
+                            "Properties": [
+                              [
+                                "Parent",
+                                {
+                                  "Name": "Parent",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "Parent object",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[PARENTEDITOR]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Name",
+                                {
+                                  "Name": "Name",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "A user friendly name of the entity",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[STRINGEDIT]",
+                                  "LocalValue": "p"
+                                }
+                              ],
+                              [
+                                "ID",
+                                {
+                                  "Name": "ID",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "ID is a unique identifier for this specific entity",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                                  "LocalValue": "36efb611-5870-4114-bc65-98fdbdf06c8c-1739550987597-0000"
+                                }
+                              ],
+                              [
+                                "InstanceID",
+                                {
+                                  "Name": "InstanceID",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "InstanceID is world a unique identifier for this specific entity",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDE]",
+                                  "LocalValue": "74e2d501-2c2a-49b3-8ede-7ec7c7de5f79-1739551868260-0018"
+                                }
+                              ],
+                              [
+                                "Description",
+                                {
+                                  "Name": "Description",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "A user description of the entity",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[STRINGEDIT]",
+                                  "LocalValue": "1,2,3,4"
+                                }
+                              ],
+                              [
+                                "Type",
+                                {
+                                  "Name": "Type",
+                                  "ClassName": "cmas.ontology.Entity",
+                                  "Description": "Entity base type",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[HIDEBASIC]",
+                                  "LocalValue": "VARIABLE"
+                                }
+                              ],
+                              [
+                                "VariableType",
+                                {
+                                  "Name": "VariableType",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Type of variable",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                                  "LocalValue": "PRIMITIVE"
+                                }
+                              ],
+                              [
+                                "ReadOnly",
+                                {
+                                  "Name": "ReadOnly",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Read only variable",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                                  "LocalValue": "false"
+                                }
+                              ],
+                              [
+                                "StoreLongTerm",
+                                {
+                                  "Name": "StoreLongTerm",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Store the value in a database",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                                  "LocalValue": "false"
+                                }
+                              ],
+                              [
+                                "Source",
+                                {
+                                  "Name": "Source",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Source field for an adapter",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Address",
+                                {
+                                  "Name": "Address",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Address field for an adapter",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Error",
+                                {
+                                  "Name": "Error",
+                                  "ClassName": "cmas.ontology.variables.Variable",
+                                  "Description": "Variable error",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, HIDE]",
+                                  "LocalValue": "false"
+                                }
+                              ],
+                              [
+                                "Value",
+                                {
+                                  "Name": "Value",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Value",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE]",
+                                  "LocalValue": "1"
+                                }
+                              ],
+                              [
+                                "ValueType",
+                                {
+                                  "Name": "ValueType",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Type of value",
+                                  "CanInherit": false,
+                                  "Override": true,
+                                  "ReadOnly": true,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE]",
+                                  "LocalValue": "INTEGER"
+                                }
+                              ],
+                              [
+                                "UpperBound",
+                                {
+                                  "Name": "UpperBound",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Upper bound for value or a bound expression",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "LowerBound",
+                                {
+                                  "Name": "LowerBound",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Lower bound for value or a bound expression",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ],
+                              [
+                                "Unit",
+                                {
+                                  "Name": "Unit",
+                                  "ClassName": "cmas.ontology.variables.Value",
+                                  "Description": "Value unit",
+                                  "CanInherit": true,
+                                  "Override": true,
+                                  "ReadOnly": false,
+                                  "ParentID": "",
+                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "LocalValue": ""
+                                }
+                              ]
+                            ],
+                            "Relations": [],
+                            "EntityType": "VARIABLE",
+                            "TypeOfVariable": "PRIMITIVE",
+                            "ValueType": "INTEGER"
+                          }
+                        ]
+                      ],
+                      "EntityType": "VARIABLE",
+                      "TypeOfVariable": "OBJECT"
+                    }
+                  ],
+                  [
+                    "OperationalSpace"
+                  ]
+                ],
+                "EntityType": "GOAL"
+              }
+            ],
+            [
+              "Interfaces"
+            ]
+          ],
+          "EntityType": "AGENT",
+          "AgentBaseType": "PART"
+        }
+      ]
+    }
+  ]
+}
