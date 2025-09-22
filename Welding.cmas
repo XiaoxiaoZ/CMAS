@@ -2,12 +2,12 @@
   "Container": "ModelTree",
   "CMAS": "Fredrik Danielsson",
   "VersionFile": 2,
-  "VersionString": "2.12 - 2025 January - revision 572",
+  "VersionString": "2.13 - 2025 June - revision 628",
   "VersionMajor": 2,
-  "VersionMinor": 12,
-  "SaveTime": "2025-02-21 - 15:55:11.284032900",
+  "VersionMinor": 13,
+  "SaveTime": "2025-09-22 - 16:52:39.865918200",
   "User": "xizh0002",
-  "Host": "IT013148",
+  "Host": "IT013054",
   "Trees": [
     {
       "Container": "Entity",
@@ -52,7 +52,7 @@
             "ReadOnly": true,
             "ParentID": "",
             "PropertyType": "[REFERENCEFILE]",
-            "LocalValue": "D:\\HV-filesync\\xizh0002\\Documents\\GitHub\\CMAS\\Welding.cmas"
+            "LocalValue": "D:\\HV-filesync\\xizh0002\\Documents\\CMAS\\Welding.cmas"
           }
         ],
         [
@@ -130,7 +130,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "d58c0307-8e99-4f8f-ab68-9a32a96c6519-1740140194881-0001"
+                "LocalValue": "4892e22d-f707-4796-bee9-55b9007d77f0-1758551501342-0001"
               }
             ],
             [
@@ -348,7 +348,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "ee3b2efb-d48c-45db-a944-4742272d867a-1740140194882-0001"
+                      "LocalValue": "703b1198-cf79-4fe4-89e9-a089a30590e4-1758551501344-0001"
                     }
                   ],
                   [
@@ -431,7 +431,7 @@
                       "Override": true,
                       "ReadOnly": false,
                       "ParentID": "",
-                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                       "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
                     }
                   ],
@@ -599,7 +599,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "aae2a1f2-9c11-402f-a639-a2a2616ca315-1740140194883-0001"
+                      "LocalValue": "7866282f-7af5-4a9d-88c3-2d4cadef3910-1758551501344-0003"
                     }
                   ],
                   [
@@ -901,7 +901,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "d9a9f1ae-f27c-435c-be26-8c45c3fb7f8b-1740140194883-0003"
+                            "LocalValue": "0b6dd9af-a4c8-4f22-8d41-54960cbc5019-1758551501344-0005"
                           }
                         ],
                         [
@@ -984,7 +984,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -1105,7 +1105,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "0c8bad19-1089-4037-8e6f-1339141b4dfb-1740140194883-0005"
+                                  "LocalValue": "ee1b9d0f-129e-4caa-ac74-b6b50ec32e96-1758551501345-0001"
                                 }
                               ],
                               [
@@ -1188,7 +1188,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -1353,7 +1353,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "b5900316-3a16-469f-8039-78f830f7676c-1740141075954-0001"
+                                  "LocalValue": "4330e480-e7e0-4766-8c0a-c9419270ec99-1758551501345-0003"
                                 }
                               ],
                               [
@@ -1436,7 +1436,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -1613,7 +1613,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "4b531353-d015-4aaa-894a-f5e047cb19ae-1740140194883-0007"
+                      "LocalValue": "39adb975-aadd-4b97-8dc4-5c383a74dc8e-1758551501346-0001"
                     }
                   ],
                   [
@@ -1915,7 +1915,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "e0ccc9e8-e801-4ea9-8dfa-12914961242c-1740140194883-0009"
+                            "LocalValue": "32140b38-9f8e-494b-9ab8-9003f55a5fd0-1758551501346-0003"
                           }
                         ],
                         [
@@ -1998,7 +1998,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -2119,7 +2119,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "98d2c073-4c69-431c-ad73-5f2e46b35620-1740140194884-0001"
+                                  "LocalValue": "3fc65d2c-736c-4900-b853-63f0dcc5315f-1758551501347-0001"
                                 }
                               ],
                               [
@@ -2202,7 +2202,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -2367,7 +2367,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "76efafe7-d2f9-452e-9251-17a2c7a2456b-1740141083646-0001"
+                                  "LocalValue": "ab2d6a4e-36e8-4cf9-b346-9c35991ba2c4-1758551501347-0003"
                                 }
                               ],
                               [
@@ -2450,7 +2450,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -2627,7 +2627,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "ed4441e0-4fae-4fd8-90b2-87f2b5ea5220-1740140194884-0003"
+                      "LocalValue": "8ff16f98-6a99-496a-8880-fd5f4e6054f2-1758551501348-0000"
                     }
                   ],
                   [
@@ -2929,7 +2929,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "b0712ca6-b504-41d9-a3cd-391039645257-1740140194884-0005"
+                            "LocalValue": "01de9a9b-24ac-4ccb-9188-663a37576085-1758551501348-0002"
                           }
                         ],
                         [
@@ -3012,7 +3012,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -3133,7 +3133,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "cb902078-8e30-4bf6-b210-a6f0868a098d-1740140194884-0007"
+                                  "LocalValue": "39277bae-9b32-48ce-a9cd-e34d7f46c797-1758551501348-0004"
                                 }
                               ],
                               [
@@ -3216,7 +3216,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -3381,7 +3381,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "8b72b63f-7b08-4c14-83a3-854dc90a4147-1740141094914-0001"
+                                  "LocalValue": "c1567777-fb26-4760-8f53-0b85995c1ae2-1758551501348-0006"
                                 }
                               ],
                               [
@@ -3464,7 +3464,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -3649,7 +3649,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "219f5190-7740-463f-a24c-0008c4222dca-1740140194886-0004"
+                "LocalValue": "c921b155-4b1e-41a7-be94-6fe905207c16-1758551501390-0001"
               }
             ],
             [
@@ -3867,7 +3867,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "d80c564d-cc02-4ad3-bb81-ce3ac10f10b6-1740140194886-0009"
+                      "LocalValue": "28787525-d057-473c-b567-09a253c4f089-1758551501391-0004"
                     }
                   ],
                   [
@@ -3950,7 +3950,7 @@
                       "Override": true,
                       "ReadOnly": false,
                       "ParentID": "",
-                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                       "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
                     }
                   ],
@@ -3965,7 +3965,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
-                      "LocalValue": "/p40"
+                      "LocalValue": "/p30"
                     }
                   ],
                   [
@@ -4118,7 +4118,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "25e1673a-bbbe-4c24-b9b9-190cfd41675c-1740140194886-000b"
+                      "LocalValue": "1a00439a-3739-46fb-9379-eb12c9b837b3-1758551501391-0006"
                     }
                   ],
                   [
@@ -4420,7 +4420,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "151a071d-bcfc-4a91-a483-9f903242015e-1740140194886-000d"
+                            "LocalValue": "1f7ca3b5-65dc-4e25-a05f-e2a67cc0035f-1758551501392-0000"
                           }
                         ],
                         [
@@ -4503,7 +4503,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -4624,7 +4624,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "f3c01226-9528-4f23-9aa3-725c0ef5d938-1740140194886-000f"
+                                  "LocalValue": "b123f29e-8df6-4965-b965-434da1219dcf-1758551501392-0002"
                                 }
                               ],
                               [
@@ -4707,7 +4707,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -4872,7 +4872,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "65ca286b-125c-4d27-ac00-7779a96cf04d-1740141036663-0001"
+                                  "LocalValue": "a726e6fd-bdfa-4248-8d87-2e0119dae631-1758551501392-0004"
                                 }
                               ],
                               [
@@ -4955,7 +4955,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -5132,7 +5132,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "e91ba3b9-5209-451a-888e-84145830a4d0-1740140194888-0001"
+                      "LocalValue": "ad715e53-dfaa-4fac-b067-78028770b4d1-1758551501393-0000"
                     }
                   ],
                   [
@@ -5434,7 +5434,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "0605ba2d-1237-495b-870a-19e7b3deaeb4-1740140194888-0003"
+                            "LocalValue": "6743b799-fa02-49f7-9068-efd566c55ffb-1758551501393-0002"
                           }
                         ],
                         [
@@ -5517,7 +5517,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -5638,7 +5638,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "fc2a9fae-e5b8-4d37-b9bf-3836d40b5933-1740140194888-0005"
+                                  "LocalValue": "15416dfd-5db0-458a-8791-1eb5f92937d0-1758551501393-0004"
                                 }
                               ],
                               [
@@ -5721,7 +5721,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -5886,7 +5886,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "00ff0fa1-2a2e-41ce-97ab-c195277f4a27-1740141044099-0001"
+                                  "LocalValue": "8f1e7ae9-807a-45eb-9dbd-92beb9bdcba6-1758551501393-0006"
                                 }
                               ],
                               [
@@ -5969,7 +5969,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -6146,7 +6146,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "2611ec89-6179-4e32-b778-e1c8feab554d-1740140194888-0007"
+                      "LocalValue": "fb3213b9-3a33-4cdb-8df8-d7e14cd83651-1758551501394-0001"
                     }
                   ],
                   [
@@ -6448,7 +6448,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "8b72a386-de97-4711-a57b-1fb9961418f6-1740140194888-0009"
+                            "LocalValue": "3b97a0d0-f3c5-4536-b4a8-17d0a21a8906-1758551501394-0003"
                           }
                         ],
                         [
@@ -6531,7 +6531,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -6652,7 +6652,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "3ddbd3ee-7dd9-4093-a83c-10c8f182f965-1740140194888-000b"
+                                  "LocalValue": "f728f6a8-8812-41fa-9273-02c14d54842b-1758551501394-0005"
                                 }
                               ],
                               [
@@ -6735,7 +6735,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -6900,7 +6900,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "4cf2ca0b-6897-456e-9256-d2d61dd6b06b-1740141056054-0001"
+                                  "LocalValue": "67bb38bf-ee3f-4aee-bf05-0d7607478dd8-1758551501395-0001"
                                 }
                               ],
                               [
@@ -6983,7 +6983,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -7168,7 +7168,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "86b119d2-07a6-4db6-969f-476a1b1484c9-1740140194889-0005"
+                "LocalValue": "a24da50b-dc4e-4320-93ab-fbb238af2dab-1758551501410-0001"
               }
             ],
             [
@@ -7386,7 +7386,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "0db60a6b-34ed-4980-8f09-bc3e30493b58-1740140194891-0000"
+                      "LocalValue": "3245caae-b57c-43ae-9723-30658d7d5dfe-1758551501410-0006"
                     }
                   ],
                   [
@@ -7469,7 +7469,7 @@
                       "Override": true,
                       "ReadOnly": false,
                       "ParentID": "",
-                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                       "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
                     }
                   ],
@@ -7637,7 +7637,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "ca086401-aa8f-467d-b2bb-53bae19681f8-1740140194891-0002"
+                      "LocalValue": "2867f65d-ba99-433e-ada6-3aff5376abcd-1758551501411-0001"
                     }
                   ],
                   [
@@ -7939,7 +7939,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "6f453ba2-bca8-4292-b1ab-b22cd02bd155-1740140194891-0004"
+                            "LocalValue": "ad877b33-6c18-4cbe-8cf1-5576ada5b48d-1758551501411-0003"
                           }
                         ],
                         [
@@ -8022,7 +8022,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -8143,7 +8143,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "76e606e6-2b4c-4796-8557-2ea946e459ab-1740140194891-0006"
+                                  "LocalValue": "ee4a7020-82b1-47aa-ae91-91604f124122-1758551501411-0005"
                                 }
                               ],
                               [
@@ -8226,7 +8226,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -8391,7 +8391,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "5884ca99-c06b-47b9-883a-654137f2a961-1740140990926-0001"
+                                  "LocalValue": "5881ec8c-9f26-4ad8-8ea1-2a6712389e3b-1758551501412-0001"
                                 }
                               ],
                               [
@@ -8474,7 +8474,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -8651,7 +8651,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "65ea21d8-6190-4449-9881-35419f332199-1740140194891-0008"
+                      "LocalValue": "ace58af1-72fc-46b5-804d-04deefbf3f60-1758551501412-0003"
                     }
                   ],
                   [
@@ -8953,7 +8953,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "320a1294-5010-49f6-90d6-4a1323582dac-1740140194891-000a"
+                            "LocalValue": "8f8a28fd-a1f4-45ea-a71f-33b5989df4a7-1758551501413-0000"
                           }
                         ],
                         [
@@ -9036,7 +9036,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -9157,7 +9157,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "eaa38b80-47d8-47ab-9732-3399551833ca-1740140194891-000c"
+                                  "LocalValue": "d375ba04-2755-4bbf-9961-17ba9bb46048-1758551501413-0002"
                                 }
                               ],
                               [
@@ -9240,7 +9240,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -9405,7 +9405,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "f7f7c215-93cd-4dcf-beca-82fc713d67ad-1740141004533-0001"
+                                  "LocalValue": "2be4955e-f8e4-432d-a9af-5b94ca4256a4-1758551501413-0004"
                                 }
                               ],
                               [
@@ -9488,7 +9488,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -9665,7 +9665,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "a991dd1b-303b-4b87-a58b-52d354e06193-1740140194893-0001"
+                      "LocalValue": "efcb930d-dc7a-41b5-9d89-62cc64441975-1758551501413-0006"
                     }
                   ],
                   [
@@ -9967,7 +9967,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "09752d85-59cc-413a-9063-6b26f6818bb5-1740140194893-0003"
+                            "LocalValue": "15cb36d9-625d-434d-b408-f16eb3873344-1758551501414-0001"
                           }
                         ],
                         [
@@ -10050,7 +10050,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -10171,7 +10171,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "33b1d42b-46f0-414b-9062-23afbe4332c1-1740140194893-0005"
+                                  "LocalValue": "7812c26d-d9ba-42dc-b179-29848bd4c16f-1758551501414-0003"
                                 }
                               ],
                               [
@@ -10254,7 +10254,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -10419,7 +10419,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "c807c5ac-6966-4613-b1c2-954a56c9aa22-1740141020470-0001"
+                                  "LocalValue": "c201e989-e9dd-4cf8-8ff4-c1959fe221de-1758551501414-0005"
                                 }
                               ],
                               [
@@ -10502,7 +10502,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -10687,7 +10687,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "8e0032dd-d631-4f26-a824-0aa61ba79d1e-1740140194894-0003"
+                "LocalValue": "9b5dd2af-c1be-4bd5-8aba-feba87bb052e-1758551501434-0001"
               }
             ],
             [
@@ -10877,7 +10877,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "d5a798f3-31a5-4b0f-8c63-7438ab4b820a-1740140194894-0005"
+                      "LocalValue": "125d68e4-8bd8-43a8-85ae-44a14f692c86-1758551501434-0003"
                     }
                   ],
                   [
@@ -10960,7 +10960,7 @@
                       "Override": true,
                       "ReadOnly": false,
                       "ParentID": "",
-                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                       "LocalValue": "REST:http:localhost:80:DIGEST:Default User:robotics"
                     }
                   ],
@@ -11128,7 +11128,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "8a0650b8-2782-4e90-b19c-d6a81297d032-1740140194894-0007"
+                      "LocalValue": "e1c3bdb0-6152-4e26-84b0-9f819997b2d5-1758551501435-0001"
                     }
                   ],
                   [
@@ -11304,7 +11304,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "8522853c-e348-43c5-b0db-77f712e30b65-1740140194894-0009"
+                            "LocalValue": "326eef42-f9df-4a34-b195-4436a300eba7-1758551501435-0003"
                           }
                         ],
                         [
@@ -11387,7 +11387,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -11508,7 +11508,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "990032f5-3f51-4ab2-9c81-4e9cec451ae5-1740140194894-000b"
+                                  "LocalValue": "50b64b18-2541-4fb2-9cb5-27b49b89aeed-1758551501435-0005"
                                 }
                               ],
                               [
@@ -11591,7 +11591,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -11756,7 +11756,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "6b66b733-b1df-43ea-a03e-fab75c1b5939-1740140881320-0000"
+                                  "LocalValue": "d533e3d3-1669-4efc-ad66-1bba98c690ce-1758551501435-0007"
                                 }
                               ],
                               [
@@ -11839,7 +11839,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -12015,7 +12015,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "4c832c3d-7f11-4b9e-bb8c-2f29e77800b9-1740140194894-000d"
+                            "LocalValue": "b79d78e8-dbba-421c-95d0-a65c852d9c77-1758551501436-0001"
                           }
                         ],
                         [
@@ -12189,7 +12189,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "578578e1-0bf5-4e60-9600-d27c54dab572-1740140194894-000f"
+                      "LocalValue": "fe113f18-fd54-4b41-a3b9-734b0868e4f0-1758551501436-0003"
                     }
                   ],
                   [
@@ -12380,7 +12380,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "7c316beb-2a0c-41ad-9af8-e8f208cac1c7-1740140194895-0000"
+                "LocalValue": "e0fd4472-6003-40e0-aa43-0100b74b1f7d-1758551501468-0001"
               }
             ],
             [
@@ -12598,7 +12598,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "e6f54a6c-3446-4270-8a75-76f5b9c10c88-1740140194895-0005"
+                      "LocalValue": "14cc592b-a0f2-405d-9490-7d8c55bb49bc-1758551501469-0002"
                     }
                   ],
                   [
@@ -12681,7 +12681,7 @@
                       "Override": true,
                       "ReadOnly": false,
                       "ParentID": "",
-                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                       "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
                     }
                   ],
@@ -12849,7 +12849,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "7ea56e05-f436-4e20-bb57-d39b0fe2f4f9-1740140194895-0007"
+                      "LocalValue": "fb7ff3d6-904f-4231-a7ac-bfb248472858-1758551501469-0004"
                     }
                   ],
                   [
@@ -13151,7 +13151,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "350bb4a9-3681-4325-bab3-03b019ff19b5-1740140194895-0009"
+                            "LocalValue": "0f17e9af-bc41-4149-b9e2-8e24ea5306e1-1758551501469-0006"
                           }
                         ],
                         [
@@ -13234,7 +13234,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -13355,7 +13355,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "0cb263a0-b0ad-40f8-98f6-9b15f382c675-1740140194895-000b"
+                                  "LocalValue": "00c21c13-a680-4f41-9062-718cc8737675-1758551501470-0001"
                                 }
                               ],
                               [
@@ -13438,7 +13438,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -13603,7 +13603,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "910c9880-bbe6-4534-a953-ef4c40a5f20f-1740140824552-0000"
+                                  "LocalValue": "52b2601d-3c62-4dd8-9484-8042906cd380-1758551501470-0003"
                                 }
                               ],
                               [
@@ -13686,7 +13686,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -13863,7 +13863,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "5f9e7bc6-ac1d-4926-b58a-d83fcfa9700a-1740140194895-000d"
+                      "LocalValue": "88431ab8-d015-4c84-98cb-5a772f6f8916-1758551501470-0005"
                     }
                   ],
                   [
@@ -14165,7 +14165,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "19f1e8f5-d4b0-433c-bc21-55fccca19f91-1740140194895-000f"
+                            "LocalValue": "71972736-08ef-4f48-a38e-7efe00b56c87-1758551501471-0001"
                           }
                         ],
                         [
@@ -14248,7 +14248,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -14369,7 +14369,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "2ae83f3b-7262-4580-a307-ad794af71524-1740140194896-0000"
+                                  "LocalValue": "c03f693f-358a-4c8c-8b7b-56863bddba31-1758551501471-0003"
                                 }
                               ],
                               [
@@ -14452,7 +14452,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -14617,7 +14617,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "01576d23-0318-4b94-b4e9-b8f4789ce82a-1740140944312-0001"
+                                  "LocalValue": "1b975589-b7c0-466b-b40b-276dff02cae2-1758551501471-0005"
                                 }
                               ],
                               [
@@ -14700,7 +14700,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -14877,7 +14877,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "925398bf-a487-483e-b71f-13df37f846ce-1740140194896-0002"
+                      "LocalValue": "572ed187-6a25-46ce-aa18-b84ecabf7d8a-1758551501480-0001"
                     }
                   ],
                   [
@@ -15179,7 +15179,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "55171d68-fc0a-45fd-9d04-51853ef47452-1740140194896-0004"
+                            "LocalValue": "a7b093da-9e33-4575-a1d1-f5c0f30757ca-1758551501481-0001"
                           }
                         ],
                         [
@@ -15262,7 +15262,7 @@
                             "Override": true,
                             "ReadOnly": false,
                             "ParentID": "",
-                            "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                            "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                             "LocalValue": ""
                           }
                         ],
@@ -15383,7 +15383,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "29bc97ee-1fcd-484a-90bb-f216592eb520-1740140194896-0006"
+                                  "LocalValue": "12203628-96b8-45f5-aa71-594c0a3069e2-1758551501481-0003"
                                 }
                               ],
                               [
@@ -15466,7 +15466,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
@@ -15631,7 +15631,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "184a40ca-dd3c-41ce-b12d-01d9ecd995de-1740140959749-0001"
+                                  "LocalValue": "4ef0d9b3-cb9b-4e37-a0fd-b11fb6b143c9-1758551501481-0005"
                                 }
                               ],
                               [
@@ -15714,7 +15714,7 @@
                                   "Override": true,
                                   "ReadOnly": false,
                                   "ParentID": "",
-                                  "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                                  "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
                                   "LocalValue": ""
                                 }
                               ],
