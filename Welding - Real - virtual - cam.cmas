@@ -5,7 +5,7 @@
   "VersionString": "2.13 - 2025 June - revision 628",
   "VersionMajor": 2,
   "VersionMinor": 13,
-  "SaveTime": "2025-09-22 - 16:52:39.865918200",
+  "SaveTime": "2025-10-14 - 13:38:55.202525400",
   "User": "xizh0002",
   "Host": "IT013054",
   "Trees": [
@@ -52,7 +52,7 @@
             "ReadOnly": true,
             "ParentID": "",
             "PropertyType": "[REFERENCEFILE]",
-            "LocalValue": "D:\\HV-filesync\\xizh0002\\Documents\\CMAS\\Welding.cmas"
+            "LocalValue": "D:\\HV-filesync\\xizh0002\\Documents\\CMAS\\Welding - Real - Copy.cmas"
           }
         ],
         [
@@ -130,7 +130,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "4892e22d-f707-4796-bee9-55b9007d77f0-1758551501342-0001"
+                "LocalValue": "175f69d5-a816-4a73-a1b2-d49eed4edebd-1760440919614-0001"
               }
             ],
             [
@@ -348,7 +348,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "703b1198-cf79-4fe4-89e9-a089a30590e4-1758551501344-0001"
+                      "LocalValue": "14eaaea0-355a-4587-80ea-21349625e8f2-1760440919615-0002"
                     }
                   ],
                   [
@@ -432,7 +432,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
-                      "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
+                      "LocalValue": "REST:http:192.168.140.13:5000:NONE:USER:PASW"
                     }
                   ],
                   [
@@ -446,7 +446,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
-                      "LocalValue": "/p30"
+                      "LocalValue": "/temperatures/3"
                     }
                   ],
                   [
@@ -538,6 +538,254 @@
                 "EntityType": "VARIABLE",
                 "TypeOfVariable": "PRIMITIVE",
                 "ValueType": "REAL"
+              },
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "cameraready"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "858f5225-a573-484e-9a64-1f03969bc909-1759133010959-0002"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "8cc35ed7-e6f2-4bf7-b5e4-39db9f890933-1760440919616-0000"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "VARIABLE"
+                    }
+                  ],
+                  [
+                    "VariableType",
+                    {
+                      "Name": "VariableType",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Type of variable",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "PRIMITIVE"
+                    }
+                  ],
+                  [
+                    "ReadOnly",
+                    {
+                      "Name": "ReadOnly",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Read only variable",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "StoreLongTerm",
+                    {
+                      "Name": "StoreLongTerm",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Store the value in a database",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Source",
+                    {
+                      "Name": "Source",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Source field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
+                      "LocalValue": "REST:http:localhost:80:DIGEST:Default User:robotics"
+                    }
+                  ],
+                  [
+                    "Address",
+                    {
+                      "Name": "Address",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Address field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                      "LocalValue": "/rw/rapid/symbol/data/RAPID/T_ROB1/MainModule/"
+                    }
+                  ],
+                  [
+                    "Error",
+                    {
+                      "Name": "Error",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Variable error",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Value",
+                    {
+                      "Name": "Value",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "0"
+                    }
+                  ],
+                  [
+                    "ValueType",
+                    {
+                      "Name": "ValueType",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Type of value",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "INTEGER"
+                    }
+                  ],
+                  [
+                    "UpperBound",
+                    {
+                      "Name": "UpperBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Upper bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "LowerBound",
+                    {
+                      "Name": "LowerBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Lower bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Unit",
+                    {
+                      "Name": "Unit",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value unit",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ]
+                ],
+                "Relations": [],
+                "EntityType": "VARIABLE",
+                "TypeOfVariable": "PRIMITIVE",
+                "ValueType": "INTEGER"
               }
             ],
             [
@@ -599,7 +847,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "7866282f-7af5-4a9d-88c3-2d4cadef3910-1758551501344-0003"
+                      "LocalValue": "402619ca-cb98-463f-ad79-6bfc65196e31-1760440919616-0002"
                     }
                   ],
                   [
@@ -739,7 +987,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 3 layer 1 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -901,7 +1149,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "0b6dd9af-a4c8-4f22-8d41-54960cbc5019-1758551501344-0005"
+                            "LocalValue": "7ea60753-6f86-4d19-a595-586798404123-1760440919616-0004"
                           }
                         ],
                         [
@@ -1105,7 +1353,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "ee1b9d0f-129e-4caa-ac74-b6b50ec32e96-1758551501345-0001"
+                                  "LocalValue": "be7641c0-fe66-4358-9813-42be70a84066-1760440919616-0006"
                                 }
                               ],
                               [
@@ -1353,7 +1601,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "4330e480-e7e0-4766-8c0a-c9419270ec99-1758551501345-0003"
+                                  "LocalValue": "efa7872c-54db-4997-ab2e-1897d3641b6d-1760440919616-0008"
                                 }
                               ],
                               [
@@ -1613,7 +1861,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "39adb975-aadd-4b97-8dc4-5c383a74dc8e-1758551501346-0001"
+                      "LocalValue": "3104b455-256b-4774-b00b-560d15f57777-1760440919617-0001"
                     }
                   ],
                   [
@@ -1753,7 +2001,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 3 layer 2 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\t\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -1915,7 +2163,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "32140b38-9f8e-494b-9ab8-9003f55a5fd0-1758551501346-0003"
+                            "LocalValue": "a1c9c71c-7fef-4ecc-9ecf-893d0289054e-1760440919617-0003"
                           }
                         ],
                         [
@@ -2119,7 +2367,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "3fc65d2c-736c-4900-b853-63f0dcc5315f-1758551501347-0001"
+                                  "LocalValue": "45385ece-7b9b-4644-a048-da31826691ad-1760440919617-0005"
                                 }
                               ],
                               [
@@ -2367,7 +2615,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "ab2d6a4e-36e8-4cf9-b346-9c35991ba2c4-1758551501347-0003"
+                                  "LocalValue": "b5c02408-01bb-4a42-88ee-19f37798609c-1760440919617-0007"
                                 }
                               ],
                               [
@@ -2627,7 +2875,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "8ff16f98-6a99-496a-8880-fd5f4e6054f2-1758551501348-0000"
+                      "LocalValue": "2ae20122-87fc-434a-993e-d96b4da8b949-1760440919618-0001"
                     }
                   ],
                   [
@@ -2767,7 +3015,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 3 layer 3 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\t\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -2929,7 +3177,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "01de9a9b-24ac-4ccb-9188-663a37576085-1758551501348-0002"
+                            "LocalValue": "772a46e9-6ccb-4ade-afb9-3fd7a90cd173-1760440919618-0003"
                           }
                         ],
                         [
@@ -3133,7 +3381,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "39277bae-9b32-48ce-a9cd-e34d7f46c797-1758551501348-0004"
+                                  "LocalValue": "30ef89c7-3e5a-48f1-a016-180a4c007f82-1760440919618-0005"
                                 }
                               ],
                               [
@@ -3381,7 +3629,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "c1567777-fb26-4760-8f53-0b85995c1ae2-1758551501348-0006"
+                                  "LocalValue": "55e51b91-2acb-4696-b9bc-06835a4e3d65-1760440919618-0007"
                                 }
                               ],
                               [
@@ -3649,7 +3897,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "c921b155-4b1e-41a7-be94-6fe905207c16-1758551501390-0001"
+                "LocalValue": "7a422c0f-c4ec-477d-9c3d-081f5cd39ca1-1760440919635-0001"
               }
             ],
             [
@@ -3867,7 +4115,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "28787525-d057-473c-b567-09a253c4f089-1758551501391-0004"
+                      "LocalValue": "a324234f-6ce7-4e0d-bbfd-1098bff9d627-1760440919636-0003"
                     }
                   ],
                   [
@@ -3951,7 +4199,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
-                      "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
+                      "LocalValue": "REST:http:192.168.140.13:5000:NONE:USER:PASW"
                     }
                   ],
                   [
@@ -3965,7 +4213,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
-                      "LocalValue": "/p30"
+                      "LocalValue": "/temperatures/3"
                     }
                   ],
                   [
@@ -4057,6 +4305,254 @@
                 "EntityType": "VARIABLE",
                 "TypeOfVariable": "PRIMITIVE",
                 "ValueType": "REAL"
+              },
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "cameraready"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "5ba97876-06c8-489c-8bfb-fd5cfc827531-1759133007094-0002"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "ec81e90b-8dd0-4dc6-9803-9660f6ae2300-1760440919636-0005"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "VARIABLE"
+                    }
+                  ],
+                  [
+                    "VariableType",
+                    {
+                      "Name": "VariableType",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Type of variable",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "PRIMITIVE"
+                    }
+                  ],
+                  [
+                    "ReadOnly",
+                    {
+                      "Name": "ReadOnly",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Read only variable",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "StoreLongTerm",
+                    {
+                      "Name": "StoreLongTerm",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Store the value in a database",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Source",
+                    {
+                      "Name": "Source",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Source field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
+                      "LocalValue": "REST:http:localhost:80:DIGEST:Default User:robotics"
+                    }
+                  ],
+                  [
+                    "Address",
+                    {
+                      "Name": "Address",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Address field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                      "LocalValue": "/rw/rapid/symbol/data/RAPID/T_ROB1/MainModule/"
+                    }
+                  ],
+                  [
+                    "Error",
+                    {
+                      "Name": "Error",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Variable error",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Value",
+                    {
+                      "Name": "Value",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "0"
+                    }
+                  ],
+                  [
+                    "ValueType",
+                    {
+                      "Name": "ValueType",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Type of value",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "INTEGER"
+                    }
+                  ],
+                  [
+                    "UpperBound",
+                    {
+                      "Name": "UpperBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Upper bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "LowerBound",
+                    {
+                      "Name": "LowerBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Lower bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Unit",
+                    {
+                      "Name": "Unit",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value unit",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ]
+                ],
+                "Relations": [],
+                "EntityType": "VARIABLE",
+                "TypeOfVariable": "PRIMITIVE",
+                "ValueType": "INTEGER"
               }
             ],
             [
@@ -4118,7 +4614,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "1a00439a-3739-46fb-9379-eb12c9b837b3-1758551501391-0006"
+                      "LocalValue": "d5dbcfd7-0582-456c-b284-b84a2e0dd7bc-1760440919636-0007"
                     }
                   ],
                   [
@@ -4258,7 +4754,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 4 layer 1 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\t\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -4420,7 +4916,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "1f7ca3b5-65dc-4e25-a05f-e2a67cc0035f-1758551501392-0000"
+                            "LocalValue": "48df530a-b757-459a-bc7c-5a81cdc1e892-1760440919636-0009"
                           }
                         ],
                         [
@@ -4624,7 +5120,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "b123f29e-8df6-4965-b965-434da1219dcf-1758551501392-0002"
+                                  "LocalValue": "c384396c-71d0-4e3b-bd43-d5566a8e1220-1760440919637-0000"
                                 }
                               ],
                               [
@@ -4872,7 +5368,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "a726e6fd-bdfa-4248-8d87-2e0119dae631-1758551501392-0004"
+                                  "LocalValue": "26e9f389-1bcc-408e-bc6c-26ab9ef52c01-1760440919637-0002"
                                 }
                               ],
                               [
@@ -5132,7 +5628,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "ad715e53-dfaa-4fac-b067-78028770b4d1-1758551501393-0000"
+                      "LocalValue": "db9b131b-1c03-4e35-9cae-5bd66363a832-1760440919637-0004"
                     }
                   ],
                   [
@@ -5272,7 +5768,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 4 layer 2 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\t\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -5434,7 +5930,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "6743b799-fa02-49f7-9068-efd566c55ffb-1758551501393-0002"
+                            "LocalValue": "b5dd49ea-24a3-488b-9ffa-5380352fb320-1760440919637-0006"
                           }
                         ],
                         [
@@ -5638,7 +6134,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "15416dfd-5db0-458a-8791-1eb5f92937d0-1758551501393-0004"
+                                  "LocalValue": "2df5c8c2-d673-4426-805c-a2daddb82b37-1760440919637-0008"
                                 }
                               ],
                               [
@@ -5886,7 +6382,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "8f1e7ae9-807a-45eb-9dbd-92beb9bdcba6-1758551501393-0006"
+                                  "LocalValue": "8ebf67f2-8b43-48f1-a264-c7298b5d71e0-1760440919637-000a"
                                 }
                               ],
                               [
@@ -6146,7 +6642,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "fb3213b9-3a33-4cdb-8df8-d7e14cd83651-1758551501394-0001"
+                      "LocalValue": "338dd503-77b2-4593-a14b-4610246f7dea-1760440919637-000c"
                     }
                   ],
                   [
@@ -6286,7 +6782,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 4 layer 3 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\t\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -6448,7 +6944,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "3b97a0d0-f3c5-4536-b4a8-17d0a21a8906-1758551501394-0003"
+                            "LocalValue": "d468424c-28a8-4306-be23-ccd22954a551-1760440919638-0001"
                           }
                         ],
                         [
@@ -6652,7 +7148,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "f728f6a8-8812-41fa-9273-02c14d54842b-1758551501394-0005"
+                                  "LocalValue": "b5aa2145-36b6-486e-b39f-3010bdad6e36-1760440919638-0003"
                                 }
                               ],
                               [
@@ -6900,7 +7396,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "67bb38bf-ee3f-4aee-bf05-0d7607478dd8-1758551501395-0001"
+                                  "LocalValue": "bd3f982f-c1d9-4f60-a1ab-479948d4df7c-1760440919638-0005"
                                 }
                               ],
                               [
@@ -7168,7 +7664,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "a24da50b-dc4e-4320-93ab-fbb238af2dab-1758551501410-0001"
+                "LocalValue": "60d5e15a-a50d-4c52-9b41-80ebc86a3d5d-1760440919646-0001"
               }
             ],
             [
@@ -7386,7 +7882,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "3245caae-b57c-43ae-9723-30658d7d5dfe-1758551501410-0006"
+                      "LocalValue": "1e60e6df-543e-49f9-8765-67076a4d4380-1760440919647-0001"
                     }
                   ],
                   [
@@ -7470,7 +7966,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
-                      "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
+                      "LocalValue": "REST:http:192.168.140.13:5000:NONE:USER:PASW"
                     }
                   ],
                   [
@@ -7484,7 +7980,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
-                      "LocalValue": "/p20"
+                      "LocalValue": "/temperatures/2"
                     }
                   ],
                   [
@@ -7576,6 +8072,254 @@
                 "EntityType": "VARIABLE",
                 "TypeOfVariable": "PRIMITIVE",
                 "ValueType": "REAL"
+              },
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "cameraready"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "5ab386dc-a18c-45f1-82ab-044d213ffdbf-1759133002655-0002"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "583b425e-f933-41b5-bd28-0cd5ba88d434-1760440919647-0003"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "VARIABLE"
+                    }
+                  ],
+                  [
+                    "VariableType",
+                    {
+                      "Name": "VariableType",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Type of variable",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "PRIMITIVE"
+                    }
+                  ],
+                  [
+                    "ReadOnly",
+                    {
+                      "Name": "ReadOnly",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Read only variable",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "StoreLongTerm",
+                    {
+                      "Name": "StoreLongTerm",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Store the value in a database",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Source",
+                    {
+                      "Name": "Source",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Source field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
+                      "LocalValue": "REST:http:localhost:80:DIGEST:Default User:robotics"
+                    }
+                  ],
+                  [
+                    "Address",
+                    {
+                      "Name": "Address",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Address field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                      "LocalValue": "/rw/rapid/symbol/data/RAPID/T_ROB1/MainModule/"
+                    }
+                  ],
+                  [
+                    "Error",
+                    {
+                      "Name": "Error",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Variable error",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Value",
+                    {
+                      "Name": "Value",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "0"
+                    }
+                  ],
+                  [
+                    "ValueType",
+                    {
+                      "Name": "ValueType",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Type of value",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "INTEGER"
+                    }
+                  ],
+                  [
+                    "UpperBound",
+                    {
+                      "Name": "UpperBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Upper bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "LowerBound",
+                    {
+                      "Name": "LowerBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Lower bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Unit",
+                    {
+                      "Name": "Unit",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value unit",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ]
+                ],
+                "Relations": [],
+                "EntityType": "VARIABLE",
+                "TypeOfVariable": "PRIMITIVE",
+                "ValueType": "INTEGER"
               }
             ],
             [
@@ -7637,7 +8381,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "2867f65d-ba99-433e-ada6-3aff5376abcd-1758551501411-0001"
+                      "LocalValue": "999c2513-53c4-4ecd-90fb-f9c9d3089ddf-1760440919647-0005"
                     }
                   ],
                   [
@@ -7777,7 +8521,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 2 layer 1 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -7939,7 +8683,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "ad877b33-6c18-4cbe-8cf1-5576ada5b48d-1758551501411-0003"
+                            "LocalValue": "2928aef3-1222-4e17-9bbb-c2db059664db-1760440919647-0007"
                           }
                         ],
                         [
@@ -8143,7 +8887,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "ee4a7020-82b1-47aa-ae91-91604f124122-1758551501411-0005"
+                                  "LocalValue": "77fbf1db-ffdd-4175-8580-15b6b7bd6bd1-1760440919647-0009"
                                 }
                               ],
                               [
@@ -8391,7 +9135,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "5881ec8c-9f26-4ad8-8ea1-2a6712389e3b-1758551501412-0001"
+                                  "LocalValue": "ccca6ca1-1d79-4c57-b523-a132e3436de9-1760440919648-0001"
                                 }
                               ],
                               [
@@ -8651,7 +9395,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "ace58af1-72fc-46b5-804d-04deefbf3f60-1758551501412-0003"
+                      "LocalValue": "1a077edf-c46f-4b4d-81da-a44176bd7650-1760440919648-0003"
                     }
                   ],
                   [
@@ -8791,7 +9535,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 2 layer 2 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -8953,7 +9697,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "8f8a28fd-a1f4-45ea-a71f-33b5989df4a7-1758551501413-0000"
+                            "LocalValue": "7e43deb3-603e-4a77-8c9c-cfdda6396aa1-1760440919648-0005"
                           }
                         ],
                         [
@@ -9157,7 +9901,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "d375ba04-2755-4bbf-9961-17ba9bb46048-1758551501413-0002"
+                                  "LocalValue": "2b636070-c9b8-4085-bb33-7591a146978b-1760440919648-0007"
                                 }
                               ],
                               [
@@ -9405,7 +10149,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "2be4955e-f8e4-432d-a9af-5b94ca4256a4-1758551501413-0004"
+                                  "LocalValue": "6c71eff4-b32b-45ba-8451-320866b616a5-1760440919648-0009"
                                 }
                               ],
                               [
@@ -9665,7 +10409,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "efcb930d-dc7a-41b5-9d89-62cc64441975-1758551501413-0006"
+                      "LocalValue": "7760981d-3637-4a75-b4ab-76e8d4d0d12e-1760440919649-0001"
                     }
                   ],
                   [
@@ -9805,7 +10549,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 2 layer 3 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -9967,7 +10711,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "15cb36d9-625d-434d-b408-f16eb3873344-1758551501414-0001"
+                            "LocalValue": "206fd77a-c493-47c3-b444-b248ae530f0d-1760440919649-0003"
                           }
                         ],
                         [
@@ -10171,7 +10915,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "7812c26d-d9ba-42dc-b179-29848bd4c16f-1758551501414-0003"
+                                  "LocalValue": "27cf8342-58b3-48d0-b6bd-bc8627f204d9-1760440919649-0005"
                                 }
                               ],
                               [
@@ -10419,7 +11163,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "c201e989-e9dd-4cf8-8ff4-c1959fe221de-1758551501414-0005"
+                                  "LocalValue": "baa2a34d-0400-4021-a225-f15c8e18a4b8-1760440919649-0007"
                                 }
                               ],
                               [
@@ -10687,7 +11431,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "9b5dd2af-c1be-4bd5-8aba-feba87bb052e-1758551501434-0001"
+                "LocalValue": "4649154e-dace-4f54-959d-31cf154dfb87-1760440919660-0000"
               }
             ],
             [
@@ -10877,7 +11621,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "125d68e4-8bd8-43a8-85ae-44a14f692c86-1758551501434-0003"
+                      "LocalValue": "d6590478-c6a2-40eb-9bef-62133a97e8fa-1760440919660-0002"
                     }
                   ],
                   [
@@ -11128,7 +11872,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "e1c3bdb0-6152-4e26-84b0-9f819997b2d5-1758551501435-0001"
+                      "LocalValue": "090cd843-7f2f-4e19-bb61-ef52ed726247-1760440919660-0004"
                     }
                   ],
                   [
@@ -11304,7 +12048,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "326eef42-f9df-4a34-b195-4436a300eba7-1758551501435-0003"
+                            "LocalValue": "202bfabc-2ec7-44d0-bb8d-341eaf5f177f-1760440919660-0006"
                           }
                         ],
                         [
@@ -11508,7 +12252,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "50b64b18-2541-4fb2-9cb5-27b49b89aeed-1758551501435-0005"
+                                  "LocalValue": "2c606dfe-d712-4622-9e25-3def42c4ed0c-1760440919660-0008"
                                 }
                               ],
                               [
@@ -11756,7 +12500,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "d533e3d3-1669-4efc-ad66-1bba98c690ce-1758551501435-0007"
+                                  "LocalValue": "a707d327-ea86-4cb8-b99d-15553f7a76eb-1760440919660-000a"
                                 }
                               ],
                               [
@@ -12015,7 +12759,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "b79d78e8-dbba-421c-95d0-a65c852d9c77-1758551501436-0001"
+                            "LocalValue": "dac8ad8f-6b88-4289-a7d3-298dc2630335-1760440919661-0000"
                           }
                         ],
                         [
@@ -12113,7 +12857,7 @@
                             "ReadOnly": false,
                             "ParentID": "",
                             "PropertyType": "[TEXTEDITOR]",
-                            "LocalValue": "Program Processplan;\n\nfunction onRun() : integer;\nbegin\n\t// Add actions here\n\tcase interface.layerInfo.p of\n\t1:\n\t\twriteln(\u0027p10_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d1;\n\t\twhile agent.pathRequest\u003d1 do\n\t\tbegin\n\t\t\n\t\tend;\n\t2:\n\t\twriteln(\u0027p20_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d2;\n\t\twhile agent.pathRequest\u003d2 do\n\t\tbegin\n\t\t\n\t\tend;\n\t3:\n\t\twriteln(\u0027p30_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d3;\n\t\twhile agent.pathRequest\u003d3 do\n\t\tbegin\n\t\t\n\t\tend;\n\t4:\n\t\twriteln(\u0027p40_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d4;\n\t\twhile agent.pathRequest\u003d4 do\n\t\tbegin\n\t\t\n\t\tend;\n\telse:\n\t\twriteln(\u0027Nothing\u0027);\n\tend;\n\tinterface.layerInfo.p:\u003d0;\n\t// Return value - running, done, failed or interrupted \n\tonRun:\u003dprocessplan.done;\nend."
+                            "LocalValue": "Program Processplan;\n\nfunction onRun() : integer;\nbegin\n\t// Add actions here\n\tcase interface.layerInfo.p of\n\t1:\n\t\twriteln(\u0027p10_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d1;\n\t\twhile agent.pathRequest\u003d1 do\n\t\tbegin\n\t\t\n\t\tend;\n\t\tsleep(\u00271s\u0027);\n\t2:\n\t\twriteln(\u0027p20_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d2;\n\t\twhile agent.pathRequest\u003d2 do\n\t\tbegin\n\t\t\n\t\tend;\n\t\tsleep(\u00271s\u0027);\n\t3:\n\t\twriteln(\u0027p30_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d3;\n\t\twhile agent.pathRequest\u003d3 do\n\t\tbegin\n\t\t\n\t\tend;\n\t\tsleep(\u00271s\u0027);\n\t4:\n\t\twriteln(\u0027p40_started \u0027, interface.layerInfo.name);\n\t\tagent.pathRequest:\u003d4;\n\t\twhile agent.pathRequest\u003d4 do\n\t\tbegin\n\t\t\n\t\tend;\n\t\tsleep(\u00271s\u0027);\n\telse:\n\t\twriteln(\u0027Nothing\u0027);\n\t\tsleep(\u00271s\u0027);\n\tend;\n\tinterface.layerInfo.p:\u003d0;\n\t// Return value - running, done, failed or interrupted \n\tonRun:\u003dprocessplan.done;\nend."
                           }
                         ]
                       ],
@@ -12189,7 +12933,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "fe113f18-fd54-4b41-a3b9-734b0868e4f0-1758551501436-0003"
+                      "LocalValue": "7c8ef972-e299-45e5-85a0-9b8c7c414a4d-1760440919661-0002"
                     }
                   ],
                   [
@@ -12380,7 +13124,7 @@
                 "ReadOnly": true,
                 "ParentID": "",
                 "PropertyType": "[INHERITANCE, HIDE]",
-                "LocalValue": "e0fd4472-6003-40e0-aa43-0100b74b1f7d-1758551501468-0001"
+                "LocalValue": "c2b2f00a-47d5-443e-bfc7-82904cb0c856-1760440919680-0001"
               }
             ],
             [
@@ -12598,7 +13342,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "14cc592b-a0f2-405d-9490-7d8c55bb49bc-1758551501469-0002"
+                      "LocalValue": "f8e175ec-da6c-4480-9c7f-1093ad228fef-1760440919680-0006"
                     }
                   ],
                   [
@@ -12682,7 +13426,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
-                      "LocalValue": "REST:http:127.0.0.1:3030:NONE:USER:PASW"
+                      "LocalValue": "REST:http:192.168.140.13:5000:NONE:USER:PASW"
                     }
                   ],
                   [
@@ -12696,7 +13440,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
-                      "LocalValue": "/p10"
+                      "LocalValue": "/temperatures/1"
                     }
                   ],
                   [
@@ -12788,6 +13532,254 @@
                 "EntityType": "VARIABLE",
                 "TypeOfVariable": "PRIMITIVE",
                 "ValueType": "REAL"
+              },
+              {
+                "Container": "Entity",
+                "Protected": false,
+                "Properties": [
+                  [
+                    "Parent",
+                    {
+                      "Name": "Parent",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Parent object",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[PARENTEDITOR]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Name",
+                    {
+                      "Name": "Name",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user friendly name of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": "cameraready"
+                    }
+                  ],
+                  [
+                    "ID",
+                    {
+                      "Name": "ID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "ID is a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[IDEDIT, MODELLING, HIDEBASIC]",
+                      "LocalValue": "e5a8602c-6a0e-45ac-b6fb-bc06d7849b2f-1759132950821-0001"
+                    }
+                  ],
+                  [
+                    "InstanceID",
+                    {
+                      "Name": "InstanceID",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "InstanceID is world a unique identifier for this specific entity",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "1a8fe27f-9dca-440d-9888-b33bf8dd191a-1760440919680-0008"
+                    }
+                  ],
+                  [
+                    "Description",
+                    {
+                      "Name": "Description",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "A user description of the entity",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[STRINGEDIT]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Type",
+                    {
+                      "Name": "Type",
+                      "ClassName": "cmas.ontology.Entity",
+                      "Description": "Entity base type",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[HIDEBASIC]",
+                      "LocalValue": "VARIABLE"
+                    }
+                  ],
+                  [
+                    "VariableType",
+                    {
+                      "Name": "VariableType",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Type of variable",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "PRIMITIVE"
+                    }
+                  ],
+                  [
+                    "ReadOnly",
+                    {
+                      "Name": "ReadOnly",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Read only variable",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "StoreLongTerm",
+                    {
+                      "Name": "StoreLongTerm",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Store the value in a database",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDEBASIC]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Source",
+                    {
+                      "Name": "Source",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Source field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADAPTEREDIT, HIDEBASIC]",
+                      "LocalValue": "REST:http:localhost:80:DIGEST:Default User:robotics"
+                    }
+                  ],
+                  [
+                    "Address",
+                    {
+                      "Name": "Address",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Address field for an adapter",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, ADDRESSBROWSE, HIDEBASIC]",
+                      "LocalValue": "/rw/rapid/symbol/data/RAPID/T_ROB1/MainModule/"
+                    }
+                  ],
+                  [
+                    "Error",
+                    {
+                      "Name": "Error",
+                      "ClassName": "cmas.ontology.variables.Variable",
+                      "Description": "Variable error",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, HIDE]",
+                      "LocalValue": "false"
+                    }
+                  ],
+                  [
+                    "Value",
+                    {
+                      "Name": "Value",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "0"
+                    }
+                  ],
+                  [
+                    "ValueType",
+                    {
+                      "Name": "ValueType",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Type of value",
+                      "CanInherit": false,
+                      "Override": true,
+                      "ReadOnly": true,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE]",
+                      "LocalValue": "INTEGER"
+                    }
+                  ],
+                  [
+                    "UpperBound",
+                    {
+                      "Name": "UpperBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Upper bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "LowerBound",
+                    {
+                      "Name": "LowerBound",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Lower bound for value or a bound expression",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ],
+                  [
+                    "Unit",
+                    {
+                      "Name": "Unit",
+                      "ClassName": "cmas.ontology.variables.Value",
+                      "Description": "Value unit",
+                      "CanInherit": true,
+                      "Override": true,
+                      "ReadOnly": false,
+                      "ParentID": "",
+                      "PropertyType": "[INHERITANCE, STRINGEDIT, HIDEBASIC]",
+                      "LocalValue": ""
+                    }
+                  ]
+                ],
+                "Relations": [],
+                "EntityType": "VARIABLE",
+                "TypeOfVariable": "PRIMITIVE",
+                "ValueType": "INTEGER"
               }
             ],
             [
@@ -12849,7 +13841,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "fb7ff3d6-904f-4231-a7ac-bfb248472858-1758551501469-0004"
+                      "LocalValue": "a0339ba1-cb19-4a73-a047-678d3d1728f7-1760440919680-000a"
                     }
                   ],
                   [
@@ -12989,7 +13981,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 1 layer 1 temp measure: \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -13151,7 +14143,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "0f17e9af-bc41-4149-b9e2-8e24ea5306e1-1758551501469-0006"
+                            "LocalValue": "7a077b0d-7e9f-4d99-a9b0-56778d277de8-1760440919680-000c"
                           }
                         ],
                         [
@@ -13355,7 +14347,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "00c21c13-a680-4f41-9062-718cc8737675-1758551501470-0001"
+                                  "LocalValue": "7a731d78-8d18-424b-907a-df87254f920d-1760440919681-0001"
                                 }
                               ],
                               [
@@ -13603,7 +14595,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "52b2601d-3c62-4dd8-9484-8042906cd380-1758551501470-0003"
+                                  "LocalValue": "c2db52fc-0f3f-491c-bc87-597bec22ef4d-1760440919681-0003"
                                 }
                               ],
                               [
@@ -13863,7 +14855,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "88431ab8-d015-4c84-98cb-5a772f6f8916-1758551501470-0005"
+                      "LocalValue": "50d88bac-b456-4bb4-ba35-76a74431adde-1760440919681-0005"
                     }
                   ],
                   [
@@ -14003,7 +14995,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 1 layer 2 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -14165,7 +15157,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "71972736-08ef-4f48-a38e-7efe00b56c87-1758551501471-0001"
+                            "LocalValue": "3304081e-7c54-44bd-9812-9ba16deff40f-1760440919681-0007"
                           }
                         ],
                         [
@@ -14369,7 +15361,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "c03f693f-358a-4c8c-8b7b-56863bddba31-1758551501471-0003"
+                                  "LocalValue": "282e4c8e-30a2-40fc-92d7-73510e5e78fd-1760440919681-0009"
                                 }
                               ],
                               [
@@ -14617,7 +15609,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "1b975589-b7c0-466b-b40b-276dff02cae2-1758551501471-0005"
+                                  "LocalValue": "50e25460-6796-4263-98d4-4298caaa03fe-1760440919681-000b"
                                 }
                               ],
                               [
@@ -14877,7 +15869,7 @@
                       "ReadOnly": true,
                       "ParentID": "",
                       "PropertyType": "[INHERITANCE, HIDE]",
-                      "LocalValue": "572ed187-6a25-46ce-aa18-b84ecabf7d8a-1758551501480-0001"
+                      "LocalValue": "349e07b2-af5e-459d-98a2-4ff7f7e40d0c-1760440919682-0000"
                     }
                   ],
                   [
@@ -15017,7 +16009,7 @@
                       "ReadOnly": false,
                       "ParentID": "",
                       "PropertyType": "[TEXTEDITOR, MODELLING]",
-                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\t//writeln(agent.temperature);\n\tPrecondition:\u003d(agent.temperature\u003c80.0);\nend."
+                      "LocalValue": "program GoalPreCondition;\n\nfunction Precondition() : boolean;\nbegin\n\t// Condition\n\tif agent.cameraready\u003d1 then\n\tbegin\n\t\tsleep(500);\n\t\twriteln(\u0027Part 1 layer 3 temp measure \u0027,agent.temperature);\n\t\tPrecondition:\u003d(agent.temperature\u003c80.0);\n\tend;\n\telse\n    \tbegin\n        \tPrecondition:\u003dfalse;\n    \tend;\n\tsleep(\u00271s\u0027);\nend."
                     }
                   ],
                   [
@@ -15179,7 +16171,7 @@
                             "ReadOnly": true,
                             "ParentID": "",
                             "PropertyType": "[INHERITANCE, HIDE]",
-                            "LocalValue": "a7b093da-9e33-4575-a1d1-f5c0f30757ca-1758551501481-0001"
+                            "LocalValue": "9b7ceeb7-d42b-4a2d-b63d-9dd33b96356c-1760440919682-0002"
                           }
                         ],
                         [
@@ -15383,7 +16375,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "12203628-96b8-45f5-aa71-594c0a3069e2-1758551501481-0003"
+                                  "LocalValue": "0d6343db-65f6-4176-914c-ae4c9b408d22-1760440919682-0004"
                                 }
                               ],
                               [
@@ -15631,7 +16623,7 @@
                                   "ReadOnly": true,
                                   "ParentID": "",
                                   "PropertyType": "[INHERITANCE, HIDE]",
-                                  "LocalValue": "4ef0d9b3-cb9b-4e37-a0fd-b11fb6b143c9-1758551501481-0005"
+                                  "LocalValue": "199e9218-9151-42aa-86e4-3f75f222fce5-1760440919682-0006"
                                 }
                               ],
                               [
